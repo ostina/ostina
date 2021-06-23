@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/* Moz */
+
+* {
+  scroll-behavior: smooth;
+  scroll-padding-top: .5rem;
+  scrollbar-color: dodgerblue transparent;
+  scrollbar-width: thin;
+}
+
+
+/* WebKit */
+
+::-webkit-scrollbar {
+  width: .5rem;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: dodgerblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06C;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #04A;
+}
