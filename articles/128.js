@@ -1,0 +1,18 @@
+_128=`
+
+<h1>128° MESSAGGIO DELLA MADONNA</h1>
+<h2>
+  La Madonna è apparsa alle ore 17,35 
+  circa del giorno 26 ottobre 2014 vestita di azzurro ed ha detto:
+</h2>
+<br>
+<q>
+  Figlioli, ancora non vi rendete conto di quanto soffre l'Onnipotente per i vostri comportamenti e 
+  ancora soffre per i vostri peccati. Se avete qualche sofferenza, 
+  e se avete veramente il cuore libero, difficilmente però, 
+  offrite tutto a Dio e ricordatevi che satana è sempre presente, 
+  specialmente in questo momento, come vi ho sempre ripetuto. <br>
+  La preghiera è fuoco ardente.
+</q>
+
+`

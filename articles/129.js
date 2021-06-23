@@ -1,0 +1,17 @@
+_129=`
+
+<h1>129° MESSAGGIO DELLA MADONNA</h1>
+<h2>
+  La Madonna è apparsa alle ore 17,33 
+  circa del giorno 28 dicembre 2014 vestita di bianco con Gesù bambino in braccio ed ha detto: 
+</h2>
+<br>
+<q>
+  Figlioli, sono molto felice in questa giornata che porto mio Figlio, 
+  per chi lo può vedere, e sono nuovamente felice perché il Signore mio 
+  Figlio mi ha dato la concessione di farvi le grazie a chi chiede e sono molto felice; 
+  però voi offrite le vostre sofferenze al Signore vostro Dio. <br>
+  La preghiera è famiglia
+</q>
+
+`

@@ -1,0 +1,18 @@
+_101=`
+
+<h1>101° MESSAGGIO DELLA MADONNA</h1>
+<h2>
+  La Madonna è apparsa alle ore 17,35 
+  circa del giorno 25 aprile 2010 vestita di azzurro ed ha detto:
+</h2>
+<br>
+<q>
+  Figlioli, <br>
+  chiedete ai vostri parroci che tutte le settimane sia fatta 
+  l'adorazione a mio figlio Gesù. In quei momenti che siete davanti a Lui,
+  spogliatevi di tutte le cose che vi amareggiano e con umiltà chiedete, chiedete, 
+  chiedete, perché Lui vi ascolta, però sempre con umiltà chiedete. <br>
+  La preghiera è aspettare.
+</q>
+
+`
