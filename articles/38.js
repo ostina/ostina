@@ -1,0 +1,13 @@
+_38=`
+
+<h1>38° MESSAGGIO DELLA MADONNA del 31/10/1999</h1>
+<h2>
+  La Madonna è apparsa in sagrestia alle ore 17,35 circa, era vestita d'azzurro. <br>
+  Le autorità religiose hanno preferito non pubblicare questo messaggio.
+</h2>
+<br>
+<q>
+  [ ... ] &nbsp; La preghiera è bellezza.
+</q>
+
+`
