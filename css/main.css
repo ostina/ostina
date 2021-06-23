@@ -47,7 +47,7 @@ header {
   transition: height var(--normal);
 }
 
-header img {
+.logo {
   display: inline-block;
   transform: translateY(calc((var(--header-height) - var(--logo-size)) / 2));
   width: var(--logo-size);
@@ -56,12 +56,12 @@ header img {
   transition: transform var(--normal), width var(--normal);
 }
 
-header img[hidden] {
+.logo[hidden] {
   opacity: 0;
   pointer-events: none;
 }
 
-header img:not([hidden])
+.logo:not([hidden])
 {
   animation: position-absolute var(--normal) forwards;
   right: 50%;
@@ -259,7 +259,7 @@ a.hidden-link {
     --logo-size: 4rem;
   }
 
-  header img:not([hidden]) {
+  .logo:not([hidden]) {
     animation: none;
     transform: translate(-50%, calc((var(--header-height) - var(--logo-size)) / 2));
   }
