@@ -31,6 +31,7 @@ body {
 }
 
 header {
+  user-select: none;
   color: dodgerblue;
   background: whitesmoke;
   position: fixed;
