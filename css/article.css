@@ -23,8 +23,7 @@ article b {
 
 #madonna {
   display: block;
-  margin: auto;
-  margin-top: 2.5rem;
+  margin: 2.5rem auto;
   max-width: 100%;
   max-height: calc(100vh - var(--header-height) - 3rem);
   border-radius: 1rem;
