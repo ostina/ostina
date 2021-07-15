@@ -1,15 +1,14 @@
-_53=`
-
-<h1>53° MESSAGGIO DELLA MADONNA del 28/04/2002</h1>
-<h2>
-  La Madonna era vestita di bianco ed ha detto:
-</h2>
-<br>
-<q>
-  Figlioli, pensate cos'è la famiglia: è come un fiore da coltivare. 
-  Gli anziani e i giovani devono essere testimonianza per Gesù. 
-  I vostri cuori donateli e io cercherò di cambiarli e farli come il mio. <br>
-  La preghiera è purezza.
-</q>
-
+_53 = //html
+`
+  <h1>53° MESSAGGIO DELLA MADONNA del 28/04/2002</h1>
+  <h2>
+    La Madonna era vestita di bianco ed ha detto:
+  </h2>
+  <br>
+  <q>
+    Figlioli, pensate cos'è la famiglia: è come un fiore da coltivare.
+    Gli anziani e i giovani devono essere testimonianza per Gesù.
+    I vostri cuori donateli e io cercherò di cambiarli e farli come il mio. <br>
+    La preghiera è purezza.
+  </q>
 `

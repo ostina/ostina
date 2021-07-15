@@ -1,15 +1,14 @@
-_29=`
-
-<h1>29° MESSAGGIO DELLA MADONNA del 26/04/1998</h1>
-<h2>
-  La Madonna è apparsa in sagrestia alle 17,50 circa, vestita di celeste e ha detto:
-</h2>
-<br>
-<q>
-  Figlioli, verrò ancora da voi perché molti hanno ancora bisogno delle mie parole per amare
-  e convertirsi. Ricordatevi che la fede è un dono di Dio e come tale voi dovete usarlo.
-  Vorrei che i vostri cuori splendessero di luce,
-  ma di una luce che porta a Dio. La preghiera è ascolto.
-</q>
-
+_29 = //html
+`
+  <h1>29° MESSAGGIO DELLA MADONNA del 26/04/1998</h1>
+  <h2>
+    La Madonna è apparsa in sagrestia alle 17,50 circa, vestita di celeste e ha detto:
+  </h2>
+  <br>
+  <q>
+    Figlioli, verrò ancora da voi perché molti hanno ancora bisogno delle mie parole per amare
+    e convertirsi. Ricordatevi che la fede è un dono di Dio e come tale voi dovete usarlo.
+    Vorrei che i vostri cuori splendessero di luce,
+    ma di una luce che porta a Dio. La preghiera è ascolto.
+  </q>
 `

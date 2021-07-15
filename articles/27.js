@@ -1,16 +1,15 @@
-_27=`
-
-<h1>27° MESSAGGIO DELLA MADONNA del 28/12/1997</h1>
-<h2>
-  La Madonna è apparsa in sagrestia alle ore 17,47 circa, era vestita di celeste e ha detto:
-</h2>
-<br>
-<q>
-  Figlioli, se volete essere felici vivete in umiltà e nell'abbandono a Gesù e i vostri problemi
-  vi sembreranno meno pesanti. Non è pregando ad alta voce che Dio vi ascolta,
-  ma nel silenzio e nell'amore del vostro cuore. Non fate il segno della croce solo per farlo,
-  ma pensate al suo significato. Pregate lo Spirito Santo. <br>
-  La preghiera è riconciliazione.
-</q>
-
+_27 = //html
+`
+  <h1>27° MESSAGGIO DELLA MADONNA del 28/12/1997</h1>
+  <h2>
+    La Madonna è apparsa in sagrestia alle ore 17,47 circa, era vestita di celeste e ha detto:
+  </h2>
+  <br>
+  <q>
+    Figlioli, se volete essere felici vivete in umiltà e nell'abbandono a Gesù e i vostri problemi
+    vi sembreranno meno pesanti. Non è pregando ad alta voce che Dio vi ascolta,
+    ma nel silenzio e nell'amore del vostro cuore. Non fate il segno della croce solo per farlo,
+    ma pensate al suo significato. Pregate lo Spirito Santo. <br>
+    La preghiera è riconciliazione.
+  </q>
 `

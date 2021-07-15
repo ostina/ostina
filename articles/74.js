@@ -1,18 +1,17 @@
-_74=`
-
-<h1>74° MESSAGGIO DELLA MADONNA</h1>
-<h2>
-  apparsa in casa il giorno 30 ottobre 2005 alle ore 17,45 circa. 
-  Era vestita di azzurro e ha detto: 
-</h2>
-<br>
-<q>
-  Figlioli, pregate pregate pregate senza sosta, perché Dio si mostrerà a voi. 
-  Gesù diverrà per voi un amico e quando parlerete di Lui non parlerete di una 
-  persona conosciuta da poco, ma come un fratello e in Lui troverete l'amore che 
-  avete sempre cercato. <br>
-  Rispettatelo come Lui rispetta voi da sempre, e io vi amerò ancora di più come figli miei. <br>
-  La preghiera è olio profumato.
-</q>
-
+_74 = //html
+`
+  <h1>74° MESSAGGIO DELLA MADONNA</h1>
+  <h2>
+    apparsa in casa il giorno 30 ottobre 2005 alle ore 17,45 circa.
+    Era vestita di azzurro e ha detto:
+  </h2>
+  <br>
+  <q>
+    Figlioli, pregate pregate pregate senza sosta, perché Dio si mostrerà a voi.
+    Gesù diverrà per voi un amico e quando parlerete di Lui non parlerete di una
+    persona conosciuta da poco, ma come un fratello e in Lui troverete l'amore che
+    avete sempre cercato. <br>
+    Rispettatelo come Lui rispetta voi da sempre, e io vi amerò ancora di più come figli miei. <br>
+    La preghiera è olio profumato.
+  </q>
 `

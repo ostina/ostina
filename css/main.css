@@ -149,6 +149,23 @@ nav a {
   outline: 0;
 }
 
+nav a[id^=e] {
+  margin-right: .25rem;
+}
+
+nav a[id^=e]::before {
+  content: 'extra';
+  padding: .125rem .25rem;
+  margin-right: .5rem;
+  border-radius: 1rem;
+  color: white;
+  background: dodgerblue;
+}
+
+nav a[id^=e]:target::before {
+  background: blueviolet
+}
+
 main {
   position: absolute;
   top: var(--header-height);

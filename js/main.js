@@ -6,20 +6,9 @@ const navSuffix = nav.getAttribute('data-suffix')
 const menu = document.querySelector('#menu')
 const minWidth576px = window.matchMedia('(min-width: 576px)')
 
-for (let i = navCount; i >= 0; i--)
+const extras =
 {
-  if (i > 0)
-  {
-    let a = document.createElement('a')
-    a.id = i
-    a.href = '#' + i
-    a.innerHTML = i + navSuffix
-    nav.appendChild(a)
-  }
-
-  let script = document.createElement('script')
-  script.src = 'articles/' + i + '.js'
-  document.body.appendChild(script)
+  168: '28° anniversario'
 }
 
 onload = () =>
@@ -35,7 +24,37 @@ onload = () =>
     }
     catch
     {
-      article.innerHTML = articleError
+      article.textContent = articleError
     }
   }
 )()
+
+addArticle(0)
+
+for (let i = 1; i <= navCount; i++)
+{
+  addArticle(i)
+  addNavLink(i, i + navSuffix)
+
+  if (i in extras)
+  {
+    addArticle('e' + i)
+    addNavLink('e' + i, extras[i])
+  }
+}
+
+function addNavLink(id, text)
+{
+  const a = document.createElement('a')
+  a.id = id
+  a.href = '#' + id
+  a.textContent = text
+  nav.prepend(a)
+}
+
+function addArticle(id)
+{
+  const script = document.createElement('script')
+  script.src = 'articles/' + id + '.js'
+  document.body.append(script)
+}

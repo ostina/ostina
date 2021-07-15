@@ -1,16 +1,15 @@
-_54=`
-
-<h1>54° MESSAGGIO DELLA MADONNA del 30/06/2002</h1>
-<h2>
-  La Madonna è apparsa in sagrestia alle ore 17,55 circa era vestita di marrone ed ha detto:
-</h2>
-<br>
-<q>
-  Figlioli, desidero vestirvi di santità, di umiltà, di ubbidienza e 
-  d'amore affinché giorno dopo giorno vi avviciniate sempre più al Signore. 
-  Ripulite i vostri cuori con la confessione perché è l'unica salvezza per la vostra anima. 
-  Vivete i miei messaggi non a parole, ma a fatti. <br>
-  La preghiera è paradiso.
-</q>
-
+_54 = //html
+`
+  <h1>54° MESSAGGIO DELLA MADONNA del 30/06/2002</h1>
+  <h2>
+    La Madonna è apparsa in sagrestia alle ore 17,55 circa era vestita di marrone ed ha detto:
+  </h2>
+  <br>
+  <q>
+    Figlioli, desidero vestirvi di santità, di umiltà, di ubbidienza e
+    d'amore affinché giorno dopo giorno vi avviciniate sempre più al Signore.
+    Ripulite i vostri cuori con la confessione perché è l'unica salvezza per la vostra anima.
+    Vivete i miei messaggi non a parole, ma a fatti. <br>
+    La preghiera è paradiso.
+  </q>
 `
