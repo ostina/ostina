@@ -4,6 +4,7 @@ const nav = document.querySelector('nav')
 const navCount = parseInt(nav.getAttribute('data-count'))
 const navSuffix = nav.getAttribute('data-suffix')
 const menu = document.querySelector('#menu')
+const root = document.querySelector(':root')
 const minWidth576px = window.matchMedia('(min-width: 576px)')
 
 const extras =
@@ -18,6 +19,8 @@ for (let i = 1; i <= navCount; ++i)
   if (i in extras)
     addNavLink('e' + i, extras[i])
 }
+
+;(onresize = () => root.style.setProperty('--window-height', innerHeight + 'px'))()
 
 ;(onhashchange = () =>
 {
