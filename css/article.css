@@ -44,4 +44,8 @@ article b {
   article h1 {
     color: black;
   }
+
+  article img {
+    max-width: 50%;
+  }
 }
