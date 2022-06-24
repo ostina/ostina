@@ -54,7 +54,7 @@ header {
   width: var(--logo-size);
   border-radius: 50%;
   margin-right: .5rem;
-  transition: transform var(--normal), width var(--normal);
+  transition: transform var(--normal), width var(--normal), box-shadow var(--normal);
 }
 
 .logo[hidden] {
@@ -67,6 +67,10 @@ header {
   animation: position-absolute var(--normal) forwards;
   right: 50%;
   transform: translate(50%, calc((var(--header-height) - var(--logo-size)) / 2));
+}
+
+.logo:active {
+  box-shadow: 0 0 0 3px dodgerblue;
 }
 
 header h1 {
@@ -230,6 +234,7 @@ footer img:hover {
 a.hidden-link {
   all: unset;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 [data-tip] {
