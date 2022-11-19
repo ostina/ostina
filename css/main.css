@@ -19,6 +19,7 @@
   --window-height: 100vh;
   --header-height: 4rem;
   --footer-height: 11rem;
+  --nav-width: 26ch;
   --logo-size: 3rem;
   --lightergray: #E5E5E5;
 }
@@ -154,12 +155,21 @@ nav a {
   outline: 0;
 }
 
-nav a[id^=e] {
+nav a[id^=e],
+nav a:first-child {
   margin-right: .25rem;
 }
 
 nav a[id^=e]::before {
   content: 'extra';
+}
+
+nav a:first-child::before {
+  content: 'ultimo';
+}
+
+nav a[id^=e]::before,
+nav a:first-child::before {
   padding: .125rem .25rem;
   margin-right: .5rem;
   border-radius: 1rem;
@@ -167,7 +177,8 @@ nav a[id^=e]::before {
   background: dodgerblue;
 }
 
-nav a[id^=e]:target::before {
+nav a[id^=e]:target::before,
+nav a:first-child:target::before {
   background: blueviolet
 }
 
@@ -264,7 +275,7 @@ a.hidden-link {
 
 @media (min-width: 576px) {
   nav {
-    width: 25ch;
+    width: var(--nav-width);
   }
 
   header h1 {
@@ -301,7 +312,7 @@ a.hidden-link {
   }
 
   main {
-    right: 25ch;
+    right: var(--nav-width);
   }
 
   article {
