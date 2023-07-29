@@ -11,7 +11,8 @@ const minWidth576px = window.matchMedia('(min-width: 576px)')
 const extras =
 {
   168: '28° anniversario',
-  174: '29° anniversario'
+  174: '29° anniversario',
+  180: '30° anniversario'
 }
 
 for (let i = 1; i <= navCount; ++i)
