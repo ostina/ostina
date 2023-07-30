@@ -24,6 +24,11 @@
   --lightergray: #E5E5E5;
 }
 
+::selection {
+  color: white;
+  background: dodgerblue;
+}
+
 body {
   height: 100%;
   color: black;
@@ -233,6 +238,7 @@ footer img:hover {
 }
 
 .line {
+  user-select: none;
   color: dodgerblue;
   font-weight: bold;
 }
