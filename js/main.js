@@ -33,7 +33,7 @@ for (let i = 1; i <= navCount; ++i)
   {
     case navLatestAlias:
       location = nav.firstChild.href
-      return;
+      return
 
     default:
       fetch(`articles/${articleName}.html`)
