@@ -242,6 +242,7 @@ footer img:hover {
 
 .line::before, .line::after {
   content: '  ';
+  display: inline-block;
   white-space: pre;
 }
 
