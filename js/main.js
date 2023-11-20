@@ -25,7 +25,9 @@ for (let i = 1; i <= navCount; ++i)
 
 ;(onhashchange = () =>
 {
-  let articleName = location.hash.slice(1).toLowerCase() || 0
+  let articleName = location.hash.slice(1).toLowerCase().replaceAll('.', '\0')
+  const hashIndex = articleName.indexOf('#')
+  articleName = articleName.slice(0, hashIndex < 0 ? undefined : hashIndex) || 0
 
   switch (articleName)
   {
