@@ -23,8 +23,6 @@ for (let i = 1; i <= navCount; ++i)
     addNavLink('e' + i, extras[i])
 }
 
-;(onresize = () => root.style.setProperty('--window-height', innerHeight + 'px'))()
-
 ;(onhashchange = () =>
 {
   let articleName = location.hash.slice(1).toLowerCase() || 0

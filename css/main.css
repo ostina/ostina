@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 @import 'https://fonts.googleapis.com/css2?family=Raleway';
 @import 'scrollbar.css';
 @import 'article.css';
@@ -16,7 +14,6 @@
 :root {
   --fast: 100ms;
   --normal: 250ms;
-  --window-height: 100vh;
   --header-height: 4rem;
   --footer-height: 11rem;
   --nav-width: 26ch;
@@ -198,7 +195,7 @@ main {
 }
 
 article {
-  min-height: calc(var(--window-height) - var(--header-height) - var(--footer-height));
+  min-height: calc(100dvh - var(--header-height) - var(--footer-height));
   padding: 1.25rem 1rem 3rem 1rem;
   transition: padding var(--normal);
 }
