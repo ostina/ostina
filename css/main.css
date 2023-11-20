@@ -217,6 +217,7 @@ footer > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
 }
 
 footer > div + div {
@@ -238,12 +239,7 @@ footer img:hover {
   user-select: none;
   color: dodgerblue;
   font-weight: bold;
-}
-
-.line::before, .line::after {
-  content: '  ';
-  display: inline-block;
-  white-space: pre;
+  margin-inline: 1ch;
 }
 
 a.hidden-link {
