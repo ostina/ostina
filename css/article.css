@@ -23,7 +23,7 @@ article b {
   display: block;
   margin: 2.5rem auto;
   max-width: 100%;
-  max-height: calc(var(--window-height) - var(--header-height) - 3rem);
+  max-height: calc(100dvh - var(--header-height) - 3rem);
   border-radius: 1rem;
   box-shadow: 0 .25rem 1rem dimgray;
 }
