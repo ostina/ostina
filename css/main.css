@@ -88,9 +88,13 @@ header h1 {
   display: none;
 }
 
-header label {
-  font-size: 2rem;
+#menu-button-container {
+  position: relative;
   float: right;
+}
+
+#menu-button-container > label {
+  font-size: 2rem;
 
   transition:
     transform var(--normal),
@@ -100,16 +104,53 @@ header label {
     margin-right var(--normal);
 }
 
-header label::after {
+#menu-button-container > label::after {
   content: '\2630';
 }
 
-header label:hover {
+#menu-button-container > div {
+  width: max-content;
+  text-align: left;
+  max-width: 65dvw;
+  font-size: 1rem;
+  line-height: initial;
+  content: attr(data-message);
+  position: absolute;
+  top: 100%;
+  margin-top: .1.5rem;
+  right: -.8rem;
+  background: dodgerblue;
+  padding: .6rem;
+  border-radius: 5px;
+  pointer-events: none;
+  color: white;
+  opacity: 0;
+  transition: opacity var(--fast) linear;
+  filter: drop-shadow(0 0 .15rem #0005);
+}
+
+#menu-button-container > div.new {
+  opacity: .94;
+}
+
+#menu-button-container > div::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: .7rem;
+  width: 1rem;
+  background: inherit;
+  bottom: 100%;
+  right: 1.175rem;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+#menu-button-container > label:hover {
   transform: scale(1.25);
   text-shadow: 0 0 1rem darkgray;
 }
 
-header label:active {
+#menu-button-container > label:active {
   opacity: .5;
 }
 
@@ -131,6 +172,10 @@ nav {
 
 :checked ~ nav {
   transform: none;
+}
+
+:checked ~ #menu-button-container > div {
+  opacity: 0 !important;
 }
 
 a {
@@ -302,9 +347,13 @@ a.hidden-link {
     transform: scale(1) translate(calc(var(--logo-size) / -2), -.25rem);
   }
 
-  header label {
+  #menu-button-container > label {
     margin-top: -.75rem;
-    margin-right: -5rem;
+    margin-right: -6rem;
+  }
+
+  #menu-button-container > div {
+    opacity: 0 !important;
   }
 
   nav {
