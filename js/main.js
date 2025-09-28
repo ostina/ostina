@@ -14,7 +14,8 @@ const extras =
   168: '28° anniversario',
   174: '29° anniversario',
   180: '30° anniversario',
-  186: '31° anniversario'
+  186: '31° anniversario',
+  192: '32° anniversario',
 }
 
 for (let i = 1; i <= navCount; ++i)
