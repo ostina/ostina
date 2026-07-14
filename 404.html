@@ -8,7 +8,7 @@
       let articleName = location.pathname.slice(1).toLowerCase().replaceAll('.', '\0')
       const slashIndex = articleName.indexOf('/')
       articleName = articleName.slice(0, slashIndex < 0 ? undefined : slashIndex) || 0
-      location.replace('#' + articleName)
+      location.replace('/#' + articleName)
     </script>
   </head>
 </html>
