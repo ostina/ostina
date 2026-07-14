@@ -109,11 +109,13 @@ function scrollToLinkForRoute(route)
 // Retrocompatibility for old links with hash in the URL.
 ;(onhashchange = () =>
 {
-  let articleName = location.hash.slice(1).toLowerCase().replaceAll('.', '\0')
-  const hashIndex = articleName.indexOf('#')
-  articleName = articleName.slice(0, hashIndex < 0 ? undefined : hashIndex) || 0
-  pushRoute('/' + articleName, true, true)
-  router()
+  setTimeout(() => {
+    let articleName = location.hash.slice(1).toLowerCase().replaceAll('.', '\0')
+    const hashIndex = articleName.indexOf('#')
+    articleName = articleName.slice(0, hashIndex < 0 ? undefined : hashIndex) || 0
+    pushRoute('/' + articleName, true, true)
+    router()
+  }, 50);
 })()
 
 onclick = e  =>
