@@ -1,11 +1,14 @@
 const nav = document.querySelector('nav')
 const navSuffix = nav.getAttribute('data-suffix')
 const navLatestAlias = nav.getAttribute('data-latestalias')
+const navJumpToLatest = nav.getAttribute('data-jumptolatest')
 const menu = document.querySelector('#menu')
 const menuMessage = document.querySelector('#menu-button-container > div')
 const root = document.querySelector(':root')
 const minWidth768px = window.matchMedia('(min-width: 768px)')
 const actualArticles = document.querySelectorAll('article:not([data-name="0"])')
+
+addNavLink(navLatestAlias, navJumpToLatest)
 
 for (const article of actualArticles)
 {
@@ -119,7 +122,7 @@ onclick = e  =>
   if (!link) return
 
   e.preventDefault()
-  pushRoute(link.pathname)
+  pushRoute(link.pathname, true, link.pathname == '/' + navLatestAlias)
   router()
 }
 
