@@ -46,4 +46,9 @@ article b {
   article img {
     max-width: 50%;
   }
+
+  #madonna {
+    height: 25dvh;
+    box-shadow: none;
+  }
 }

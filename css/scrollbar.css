@@ -1,14 +1,15 @@
 /* Moz */
 
 * {
-  scroll-behavior: smooth;
-  scroll-padding-top: .5rem;
+  scroll-padding-top: -1px;
   scrollbar-color: dodgerblue transparent;
-  scrollbar-width: thin;
 }
 
+nav, nav * {
+  scroll-padding-top: .5rem;
+}
 
-/* WebKit */
+/* WebKit (for retrocompatibility) */
 
 ::-webkit-scrollbar {
   width: .5rem;
